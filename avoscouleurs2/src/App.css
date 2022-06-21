@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* #042A2B bleu vert*/ 
+/* #48ADA9 turquoise*/ 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eefbef;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.row, .left, .right {
+  width: 50%;
+}
+
+.top {
+  margin-top: 80px;
+}
+
+.top1 {
+  margin-top: 80px;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
+.heading {
+  margin: 50px 0 50px 0;
+}
+
+.heading h4 {
+  text-align: center;
+  color: #3c3e41;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #3c3e41;
+}
+
+/* h1 {
+  color: #0066ff;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+p {
+  color: #3c3e41;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.primary_color {
+  color: #005F62;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+}
+/*----------Footer---------*/
+footer {
+  margin: 20% 0 10% 0;
+}
+footer p {
+  margin-top: 30px;
+}
+/*----------Footer---------*/
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .left,
+  .right {
+    width: 90%;
+  }
+
+  .heading h1 {
+    font-size: 200%;
+  }
+
+  .heading h2, h3, h4 {
+    font-size: 100%;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .top {
+    margin-top: 0;
+    /* background-color: red; */
+  }
+
+  .top1 {
+    margin: 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading h1 {
+    font-size: 200%;
+  }
+
+  .heading h2, h3, h4 {
+    font-size: 100%;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* 
+@media (max-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+} */

@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse; 
+    /* background-color: rgb(231, 222, 222); */
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+#Tableau {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 3rem; */
+    padding-top: 5rem;
+   
+}
+
+caption {
+    padding-bottom: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+    table{
+        display: none;
+    }
+}

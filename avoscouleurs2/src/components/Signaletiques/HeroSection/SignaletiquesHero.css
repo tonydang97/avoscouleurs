@@ -1,0 +1,42 @@
+.signaletiques-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../images/assetSignalétiques/soldes.jpeg') center center/cover no-repeat;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.signaletiques-container > h1{
+    color: #fff;
+    font-size: 5rem;
+    margin-top: 100px;
+}
+
+.signaletiques-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+.signaletiques-container{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    }
+
+.signaletiques-container > h1 {
+    font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .signaletiques-container > p {
+    display: none;
+    }
+}
