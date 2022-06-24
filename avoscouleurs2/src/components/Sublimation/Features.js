@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import ImageOne from "../../images/assetSublimation/tassesubli.jpg"
+import ImageOne from "../../images/assetSublimation/sublitasse2.jpg"
 
 const Section = styled.section`
 background: #042A2B;

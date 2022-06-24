@@ -6,7 +6,7 @@ import Avantages from '../components/Numerique/Avantages'
 // import Features from '../components/Numerique/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
 import { InfoTransfertNum, InfoTransfertDTF, InfoNumeriqueDTG, InfoFlex } from '../components/InfoData'
-import TableauComparatif from '../components/Transfert/TableauTransfert'
+import TableauComparatif from '../components/TableauTransferts/TableauTransfert'
 
 
 const list = [

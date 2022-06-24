@@ -1,7 +1,7 @@
 export const Data = [
     {
         question: "Puis-je personnaliser 1 seule pièce ?",
-        answer: 'Bien sur ! Chez à vos couleurs, vous pouvez personnaliser des textiles à partir de 1 pièces.'
+        answer: 'Bien sur ! Chez à vos couleurs, vous pouvez personnaliser des textiles à partir de 1 pièce.'
     },
     {
         question: "Puis-je personnaliser les vêtements avec un surnom différent sur chaque produit ?",

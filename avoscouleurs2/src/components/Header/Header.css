@@ -4,16 +4,32 @@
   padding-top: 20px;
 }
 
+.logoseul {
+  visibility: hidden;
+}
+
+.logo2022 {
+  width: 90%;
+}
+
 @media (max-width: 500px) {
 .logo2022 {
+ display: none;
  width: 60%;
  height: 60%;
   }
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-bottom: 20px;
   padding-top: 10px;
+}
+.logoseul {
+ visibility: visible;
+ display: flex;
+ align-items: center;
+ 
 }
 }
 

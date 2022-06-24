@@ -2,7 +2,7 @@ import ImageSerOne from "../images/assetSerigraphie/hommequiracle.jpg"
 import ImageSerTwo from "../images/assetSerigraphie/serigraphierouge.jpg"
 import ImageBroOne from "../images/assetBroderie/broderie-rat.jpg"
 import ImageBroTwo from "../images/assetBroderie/broderie-6.jpg"
-import ImageSublOne from "../images/assetSublimation/sublimationtass.jpg"
+import ImageSublOne from "../images/assetSublimation/sublitasse.jpg"
 import ImageSublTwo from "../images/assetSublimation/sublimation.webp"
 import ImageTransOne from "../images/assetNumerique/castel.jpg"
 import ImageTransTwo from "../images/assetNumerique/transfertseri.jpg"
@@ -67,8 +67,8 @@ export const InfoSublimation1 = {
 
 export const InfoSublimation2 = {
     heading: "Pour quels supports ?",
-    paragraphOne: "La sublimation est adaptés à des supports exclusivement blanc.",
-    paragraphTwo: "En plus des t-shirts en polyester, cette technique de marquage peut être utilisés pour d'autres supports comme  des sacs, des casquettes, des bandanas et des masques conçus en polyester classique, en polyester recyclé (rPET), serviette  de bain ou encore des mugs.",
+    paragraphOne: "La sublimation est adaptée à des supports exclusivement blanc.",
+    paragraphTwo: "En plus des t-shirts en polyester, cette technique de marquage peut être utilisée pour d'autres supports comme  des sacs, des casquettes, des bandanas et des masques conçus en polyester classique, en polyester recyclé (rPET), serviette  de bain ou encore des mugs et gourdes.",
     image: ImageSublOne,
     reverse: true,
     delay: 300
