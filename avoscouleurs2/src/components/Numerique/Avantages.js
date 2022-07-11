@@ -6,7 +6,7 @@ import {MdDoneOutline} from "react-icons/md"
 const StatsData = [
     {
         icon: (<MdDoneOutline css={`color: #047bf1;`}/>),
-        title: "Idéale pour petite quantités",
+        title: "Idéale pour petites quantités",
     },
     {
         icon: (<MdDoneOutline/>),

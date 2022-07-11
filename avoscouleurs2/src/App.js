@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Header from './components/Header/Header'
 import "./App.css"
-// import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
@@ -16,8 +15,8 @@ import NewFooter from './components/Footer/NewFooter'
 import Aos from "aos"
 import 'aos/dist/aos.css'
 import ScrollToTop from './components/ScrollToTop'
-import FAQ from './components/FAQ/FAQ'
 import Mention from "./components/Mention/Mention"
+import FAQ from './pages/Faq'
 
  
   

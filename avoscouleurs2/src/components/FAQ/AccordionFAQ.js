@@ -1,4 +1,26 @@
-export const Data = [
+import React from 'react'
+import "./AccordionFAQ.css"
+
+const AccordionFAQ = () => {
+  return (
+    <div className='wrapper'>
+        <div className='accordion'>
+
+            {Data.map((item, i) => {
+                <div className='item'>
+                    <div className='title'>
+                        <h2>{item.quesion}</h2>
+                    </div>
+                    <div className='content'>{item.content}</div>
+                </div>
+            })}
+        
+        </div>
+    </div>
+  )
+}
+
+ const Data = [
     {
         id: 1,
         question: "Puis-je personnaliser 1 seule pièce ?",
@@ -20,3 +42,5 @@ export const Data = [
         answer: "C'est tout à fait possible et c'est totalement gratuit !"
     },
 ];
+
+export default AccordionFAQ

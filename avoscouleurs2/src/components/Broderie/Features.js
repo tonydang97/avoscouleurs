@@ -95,7 +95,7 @@ const Features = () => {
                     <h1>Un large choix ...</h1>
                     <p>Chez A vos couleurs, nous recherchons le fil se rapprochant le plus des couleurs du motif que vous souhaitez. 
                         Nous utilisons les références Pantone, CMJN, ou échantillons que nous comparons aux références de fil de notre fournisseur.</p>
-                    <p>Nous sommes équipés de 2 machines à broder composées de 6 têtes. Ces machines ont la possibilité de broder des motifs composés de 12 couleurs au maximum. Nous sommes donc en capacité de produire des gros volumes de textile.
+                    <p>Nous sommes équipés de 2 machines à broder composées de 6 têtes. Ces machines ont la possibilité de broder des motifs composés de 12 couleurs au maximum. Nous sommes donc en capacité de produire des volumes de textile importants.
                     </p>
                 </Content>
                </ColumnLeft>

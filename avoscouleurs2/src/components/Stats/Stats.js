@@ -26,12 +26,12 @@ const StatsData = [
   {
     icon: <ImBubbles />,
     title: "Conseils",
-    desc: "Nous conseillons les produits et services adaptés selon vos besoins.",
+    desc: "Nous conseillons les produits et services adaptés à vos besoins.",
   },
   {
     icon: <FaTshirt />,
     title: "À partir d'une pièce",
-    desc: "Pas de quantité requise pour le lancement de la production.",
+    desc: "Pas de quantité minimale pour le lancement de la production.",
   },
 ];
 const Stats = () => {

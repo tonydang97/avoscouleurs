@@ -14,7 +14,7 @@ const StatsData = [
     },
     {
         icon: (<MdDoneOutline />),
-        title: "Vêtements respirant",
+        title: "Vêtements respirants",
     },
     {
         icon: (<MdDoneOutline />),

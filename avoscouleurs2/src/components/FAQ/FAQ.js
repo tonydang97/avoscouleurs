@@ -5,23 +5,19 @@ import { IconContext } from 'react-icons';
 import {FiPlus, FiMinus} from "react-icons/fi"
 
 const FAQSection = styled.div`
+width: 100%;
+height: 100vh;
 display: flex;
-flex-direction: column;
 align-items: center;
 justify-content: center;
-position: relative;
-height: 100vh;
-
-@media screen and (max-width: 1444px) {
- padding-bottom: 2rem;
-}
+margin-bottom: 15%;
 `
 
 const Container = styled.div`
-position: absolute;
-top: 30%;
-box-shadow: 2px 10px 35px 1px rgba(153,153,153, 0.3);
-bottom: 30%;
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 `
 
 const Wrap = styled.div`
@@ -53,7 +49,7 @@ const Dropdown = styled.div`
 background: #1c1c1c,
 color: #00ffb9;
 width: 100%;
-height: 100px;
+height: 50px;
 display: flex;
 flex-direction: column;
 justify-content: center;

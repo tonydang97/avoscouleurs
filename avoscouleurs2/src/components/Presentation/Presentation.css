@@ -1,3 +1,41 @@
+#logo {
+  width: 80%;
+  display: none;
+}
+
+@media screen and (max-width:1200px) {
+  #logo{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .hero h1 {
+    font-size: 0px;
+    margin-bottom: 0px;
+  }
+
+  .hero h1 span {
+    display: none;
+  }
+}
+/* #tel {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+#numero {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 .hero {
     position: relative;
   }
@@ -114,7 +152,7 @@
     }
   }
 
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1164px){
     .hero .right,
     .hero .left {
       width: 100%;

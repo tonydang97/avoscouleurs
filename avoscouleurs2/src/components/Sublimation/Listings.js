@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components/macro";
 import ImageOne from "../../images/assetSublimation/microfibre.jpg"
-import ImageTwo from "../../images/assetSerigraphie/mairietoulouse.jpg"
+import ImageTwo from "../../images/assetSublimation/lmcracing.jpg"
 import ImageThree from "../../images/assetSublimation/camo.jpg"
 import ImageFour from "../../images/assetSublimation/tasse.jpg"
 

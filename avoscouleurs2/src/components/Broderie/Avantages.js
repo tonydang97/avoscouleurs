@@ -6,7 +6,7 @@ import {MdDoneOutline} from "react-icons/md"
 const StatsData = [
     {
         icon: (<MdDoneOutline css={`color: #047bf1;`}/>),
-        title: "Adaptable à tout supports",
+        title: "Adaptable à tous les supports",
     },
     {
         icon: (<MdDoneOutline/>),
@@ -18,7 +18,7 @@ const StatsData = [
     },
     {
         icon: (<MdDoneOutline/>),
-        title: "Relief du visuel, rendu prenium",
+        title: "Relief du visuel, rendu premium",
     },
 ]
 const Stats = () => {

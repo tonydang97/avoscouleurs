@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../images/logoavc2.png";
-// import logoseul from "../../images/logo.png";
+// import logoseul from "../../images/logoo.png";
 
 const Header = () => {
   // fixed Header
@@ -16,7 +16,8 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className="logo">
-            <img className ='logo2022' src={logo} alt='logo2022' width={400} height={55} />
+            <img className ='logo2022' src={logo} alt='logo2022' width={400} height={60} />
+            {/* <img className ='logo2022' src={logoseul} alt='logo2022' width={400} height={60} /> */}
             {/* <img className ='logoseul' src={logoseul} alt='logoseul' width={45} height={40} /> */}
           </div>
 
@@ -35,7 +36,7 @@ const Header = () => {
                 <a href='/broderie'>Broderie</a>
               </li>
               <li>
-                <a href='/impression-numerique'>Impression numérique</a>
+                <a href='/impression-numerique'>Impréssion numérique</a>
               </li>
               <li>
                 <a href='/sublimation'>Sublimation</a>

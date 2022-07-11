@@ -3,6 +3,7 @@ import "../Presentation/Presentation.css"
 import hero from "../../images/herojulix.jpg"
 import { Typewriter } from "react-simple-typewriter"
 // import { Link } from "react-router-dom"
+import logo from "../../images/logoseul.png"
 
 
 
@@ -16,6 +17,7 @@ const Presentation = () => {
             <h3>Bienvenue chez</h3>
             <h1>
             <span>A VOS COULEURS</span>
+            <img id="logo" src={logo} alt="" />
             </h1>
             <h2>
               Spécialiste en 
@@ -30,9 +32,14 @@ const Presentation = () => {
               </span>
             </h2>
 
-            <p>Depuis 29 ans, nous accompagnons les professionnels dans leurs projets de marquage textile.
-                Riches de plusieurs années d’expériences, nous vous orienterons vers 
-                les produits et procédés d’impression les plus adaptés à vos besoins.</p>
+            <p>
+              Depuis 29 ans, nous accompagnons les professionnels dans leurs projets de marquage textile.
+              Riches de plusieurs années d’expériences, nous vous orientons vers 
+              les produits et procédés d’impression les plus adaptés à vos besoins.
+            </p>
+            {/* <div id="numero">
+                <p id="tel"><a href="tel:0561915246">05.61.91.52.46</a></p>
+            </div> */}
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>TROUVEZ-NOUS</h4>

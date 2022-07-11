@@ -40,7 +40,7 @@ h3 {
 
 p {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 `;
 
@@ -144,7 +144,7 @@ const NewFooter = () => {
             <FooterTop>
                 <Quote>
                     <LogoAVC />
-                    <p>Au service des pro</p>
+                    <p>Impression de textiles et objets promotionnels</p>
                 </Quote>
                 <FooterInfo>
                     <h4>Coordonnées</h4>
